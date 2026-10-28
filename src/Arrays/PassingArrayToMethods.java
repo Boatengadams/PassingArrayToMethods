@@ -1,7 +1,8 @@
+// Question: How do changes to an array parameter affect the original array?
 package Arrays;
 
 public class PassingArrayToMethods {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int [] numbers = {1, 2};
         change(numbers);
         printArray(numbers);
